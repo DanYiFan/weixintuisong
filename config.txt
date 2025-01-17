@@ -5,7 +5,7 @@
 # 公众号appSecret
 "app_secret": "d2cd192b565609b65fca39c616386c38",
 # 模板消息id
-"template_id": "ouVeJ1HEwUpBTLSPVxYYeIo0LCG-6kq90mtswY-RN_M",
+"template_id": "FFCVLJk6S-JwFDzwA5twN_8ek90KPL6HyUEYPNls7XI",
 # 接收公众号消息的微信号，如果有多个，需要在[]里用英文逗号间隔，例如["wx1", "wx2"]
 "user": ["on7Ip6pxNRHCVc8LtAFQ51BpC_8c"],            #改这里！
  
@@ -19,9 +19,9 @@
 # 生日2
 "birthday2": {"name": "Dan1Fan", "birthday": "2025-1-1"},
 # 在一起的日子，格式同上，暂不不支持农历
-"love_date": "2025-1-6",
+"love_date": "2024-12-25",
 # 金句中文，如果设置了，则会显示这里的，如果为空，默认会读取金山的每日金句
-"note_ch": "减少期待",
+"note_ch": "爱是天赋,我是废物",
 # 金句英文
 "note_en": "yes ",
 }
