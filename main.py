@@ -181,7 +181,7 @@ def send_message(to_user, access_token, region_name, weather, temp, wind_dir, no
         if birth_day == 0:
             birthday_data = "今天{}生日哦，祝{}生日快乐！".format(value["name"], value["name"])
         else:
-            birthday_data = "距离{}的生日还有{}天".format(value["name"], birth_day)
+            birthday_data = "距离{}的生日还有{}天"。format(value["name"], birth_day)
         # 将生日数据插入data
         data["data"][key] = {"value": birthday_data, "color": get_color()}
     headers = {
@@ -224,10 +224,10 @@ if __name__ == "__main__":
     weather, temp, wind_dir = get_weather(region)
     note_ch = config["note_ch"]
     note_en = config["note_en"]
-    if note_ch == "" 和 note_en == "":
+    if note_ch == "" and note_en == "":
         # 获取词霸每日金句
         note_ch, note_en = get_ciba()
     # 公众号推送消息
-    for user 在 users:
+    for user in users:
         send_message(user, accessToken, region, weather, temp, wind_dir, note_ch, note_en)
     os.system("pause")
